@@ -1,0 +1,79 @@
+---- extern struct BT_DEVICE_T  app_bt_device Matches (11 in 10 files) ----
+apps.cpp (apps\main) line 54 : extern struct BT_DEVICE_T  app_bt_device;
+app_a2dp_source.h (services\bt_app) line 58 : extern struct BT_DEVICE_T  app_bt_device;
+app_battery.cpp (apps\battery) line 76 : extern struct BT_DEVICE_T  app_bt_device;
+app_bqb.cpp (services\bt_app) line 69 : extern struct BT_DEVICE_T  app_bt_device;
+app_bt.cpp (services\bt_app) line 33 : extern struct BT_DEVICE_T  app_bt_device;
+app_bt_media_manager.cpp (services\bt_app) line 59 : extern struct BT_DEVICE_T  app_bt_device;
+app_hfp.cpp (services\bt_app) line 77 : extern struct BT_DEVICE_T  app_bt_device;
+app_keyhadle(6472).cpp (FW1608.si4project\Backup) line 41 : extern struct BT_DEVICE_T  app_bt_device;
+app_keyhadle.cpp (services\bt_app) line 41 : extern struct BT_DEVICE_T  app_bt_device;
+besmain.cpp (services\bt_app) line 103 : extern struct BT_DEVICE_T  app_bt_device;
+besmain.cpp (services\bt_app) line 108 : extern struct BT_DEVICE_T  app_bt_device;
+---- extern struct BT_DEVICE_T  app_bt_device Search Errors Encountered (65) ----
+The following 65 files could not be processed:
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\analog(139).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\analog(1896).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\analog(3705).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\analog(5647).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\analog(5897).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\analog(5938).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\analog(7302).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\apps(1347).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\apps(1632).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\apps(1786).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\apps(4535).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\apps(7210).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\apps(7494).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_a2dp_source(979).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_bt(2558).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_bt(2907).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_bt(4417).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_bt(5475).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_bt(6013).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_bt(7240).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_bt(768).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_hfp(3575).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_hfp(7990).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_keyhadle(3254).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_keyhadle(3269).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_keyhadle(4541).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_keyhadle(4621).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_keyhadle(7594).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(1448).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(2636).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(3784).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(4985).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(5087).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(573).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(6587).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_pwl(8078).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(1510).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(1689).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(2699).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(4373).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(4801).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(4878).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(5141).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(6358).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(6930).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\app_status_ind(963).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\audioflinger(3487).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\audioflinger(3925).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\audioflinger(5379).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\audioflinger(6540).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\besmain(137).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\besmain(5461).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\codec_best1000(1281).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\codec_best1000(3015).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\FW1608.SearchResults : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\hal_gpio(7787).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\hal_i2s(1086).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\hal_key(2480).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\hal_key(4677).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\overide(8025).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\SDFileSystem(684).cpp : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\tgt_hardware(4024).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\tgt_hardware(5094).h : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\tgt_hardware(5188).c : File could not be opened.
+C:\Users\George\Desktop\FW1608_test\FW1608.si4project\Backup\tgt_hardware(7356).h : File could not be opened.

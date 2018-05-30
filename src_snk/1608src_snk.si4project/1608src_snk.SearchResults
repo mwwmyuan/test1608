@@ -1,0 +1,42 @@
+---- LOST Matches (45 in 21 files) ----
+a2dp.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) line 1758 :  *     be sent, the timestamp needs to be adjusted to account for the lost 
+af_stream_ctl_t in audioflinger(8104).c (C:\Users\George\Desktop\FW1608_src_snk\1608test.si4project\Backup) :     uint8_t pp_cnt;				//use to count the lost signals
+af_thread in audioflinger(8104).c (C:\Users\George\Desktop\FW1608_src_snk\1608test.si4project\Backup) :             				TRACE("[%s] WARNING: role[%d] lost %d signals", __func__, signals-1, role->ctl.pp_cnt-1);
+af_stream_ctl_t in audioflinger.c (C:\Users\George\Desktop\FW1608_src_snk\services\audioflinger) :     uint8_t pp_cnt;				//use to count the lost signals
+af_thread in audioflinger.c (C:\Users\George\Desktop\FW1608_src_snk\services\audioflinger) :             				TRACE("[%s] WARNING: role[%d] lost %d signals", __func__, signals-1, role->ctl.pp_cnt-1);
+af_stream_ctl_t in audioflinger.c (C:\Users\George\Desktop\FW1608_src_snk\tests\programmer\extend) :     uint8_t pp_cnt;				//use to count the lost signals
+af_dma_irq_handler in audioflinger.c (C:\Users\George\Desktop\FW1608_src_snk\tests\programmer\extend) :                     TRACE("[%s] WARNING: role[%d] lost %d signals", __func__, signals-1, role->ctl.pp_cnt-1);
+btconfig.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) line 944 :  *     support for retransmission of lost frames, SDU segmentation and
+mbed::CAN in CAN.h (C:\Users\George\Desktop\FW1608_src_snk\mbed\api) :      *  @param event Which CAN interrupt to attach the member function to (CAN::RxIrq for message received, CAN::TxIrq for transmitted or aborted, CAN::EwIrq for error warning, CAN::DoIrq for data overrun, CAN::WuIrq for wake-up, CAN::EpIrq for error passive, CAN::AlIrq for arbitration lost, CAN::BeIrq for bus error)
+mbed::CAN in CAN.h (C:\Users\George\Desktop\FW1608_src_snk\mbed\api) :     *  @param event Which CAN interrupt to attach the member function to (CAN::RxIrq for message received, TxIrq for transmitted or aborted, EwIrq for error warning, DoIrq for data overrun, WuIrq for wake-up, EpIrq for error passive, AlIrq for arbitration lost, BeIrq for bus error)
+conmgr.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) line 1274 :  *     BSE_PARTIAL_DATA - Partially lost data. Some of the data was lost and 
+co_bt_defines.h (C:\Users\George\Desktop\FW1608_src_snk\services\ble_stack\common\api) line 433 : #define PARTIALLY_LOST_FLAG     0x03
+hci_evt_code in co_hci.h (C:\Users\George\Desktop\FW1608_src_snk\services\ble_stack\common\api) :     HCI_LE_PERIODIC_ADV_SYNC_LOST_EVT_SUBCODE  = 0x10,
+co_hci.h (C:\Users\George\Desktop\FW1608_src_snk\services\ble_stack\common\api) line 3785 : ///HCI LE periodic advertising sync lost event structure
+co_hci.h (C:\Users\George\Desktop\FW1608_src_snk\services\ble_stack\common\api) line 3786 : struct hci_le_per_adv_sync_lost_evt
+hal_i2c_sm_done_task in hal_i2c.c (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :         if (task->errcode & HAL_I2C_ERRCODE_SLV_ARBLOST)
+hal_i2c_sm_done_task in hal_i2c.c (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :             TRACE("i2c err : HAL_I2C_ERRCODE_SLV_ARBLOST\n");
+HAL_I2C_ERRCODE_T in hal_i2c.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :     HAL_I2C_ERRCODE_SLV_ARBLOST = 0x1<<14,
+HAL_I2C_ERRCODE_T in hal_i2c.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :     HAL_I2C_ERRCODE_ARB_LOST = 0x1<<12,
+HAL_I2C_ERRCODE_T in hal_i2c.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :     #define I2CIP_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_SHIFT (14)
+HAL_I2C_ERRCODE_T in hal_i2c.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :     #define I2CIP_TX_ABRT_SOURCE_ARB_LOST_SHIFT (12)
+mmc_startup in hal_sdmmc.c (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :          * partitioned. This bit will be lost every time after a reset
+hal_trace_printf in hal_trace.c (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :         len = snprintf(buf, sizeof(buf), "\r\nLOST %d\r\n", trace.discards);
+hal_trace_printf_without_crlf in hal_trace.c (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :         len = snprintf(buf, sizeof(buf), "\r\nLOST %d\r\n", trace.discards);
+hal_trace_dump in hal_trace.c (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) : 		len = snprintf(buf, sizeof(buf), "\r\nLOST %d\r\n", trace.discards);
+hal_trace_crash_dump in hal_trace.c (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) :     len = snprintf(crash_buf, sizeof(crash_buf), "\r\nLOST %d\r\n### ASSERT ###\r\n", trace.discards);
+hf.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) line 219 :  *     between the Hands-Free Unit and the Audio Gateway is lost.  A short
+hf.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) line 235 :  *     the Hands-Free Unit and the Audio Gateway is lost.
+_L2capFlowParms in l2cap.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) :      * before considering the channel lost. The minimum value of 1, indicates
+_L2capFlowParms in l2cap.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) :      * is present on the channel. It serves to ensure that lost acknowledgements
+mesco.h (C:\Users\George\Desktop\FW1608_src_snk\services\bt_profiles\inc) line 542 :  *     BSE_PARTIAL_DATA - Partially lost data. Some of the data was lost and
+gd25q32c_drv_norflash_read in norflash_gd25q32c.c (C:\Users\George\Desktop\FW1608_src_snk\platform\drivers\norflash) :     /* BUG : when read speed < spi in speed, lost read bytes, 
+gd25q80c_drv_norflash_read in norflash_gd25q80c.c (C:\Users\George\Desktop\FW1608_src_snk\platform\drivers\norflash) :     /* BUG : when read speed < spi in speed, lost read bytes, 
+reg_i2cip.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) line 270 : #define I2CIP_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_SHIFT (14)
+reg_i2cip.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) line 271 : #define I2CIP_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_MASK ((0x1)<<I2CIP_TX_ABRT_SOURCE_ABRT_SLV_ARBLOST_SHIFT)
+reg_i2cip.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) line 274 : #define I2CIP_TX_ABRT_SOURCE_ARB_LOST_SHIFT (12)
+reg_i2cip.h (C:\Users\George\Desktop\FW1608_src_snk\platform\hal) line 275 : #define I2CIP_TX_ABRT_SOURCE_ARB_LOST_MASK ((0x1)<<I2CIP_TX_ABRT_SOURCE_ARB_LOST_SHIFT)
+hl_err in rwble_hl_error.h (C:\Users\George\Desktop\FW1608_src_snk\services\ble_stack\hl\api) :     /// Message cannot be sent because connection lost. (disconnected)
+hl_err in rwble_hl_error.h (C:\Users\George\Desktop\FW1608_src_snk\services\ble_stack\hl\api) :     L2C_ERR_CONNECTION_LOST                                                        = 0x30,
+hl_err in rwble_hl_error.h (C:\Users\George\Desktop\FW1608_src_snk\services\ble_stack\hl\api) :     /// Link connection lost during operation.
+speex_jitter.h (C:\Users\George\Desktop\FW1608_src_snk\services\multimedia\speech\process\ns_and_ec\include\speex) line 71 : /** Packet is lost or is late */
